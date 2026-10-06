@@ -552,7 +552,6 @@ __metadata:
     bcrypt: "npm:^6.0.0"
     cors: "npm:^2.8.6"
     dbmate: "npm:^2.36.0"
-    dotenv: "npm:^17.4.2"
     express: "npm:^5.2.1"
     jsonwebtoken: "npm:^9.0.3"
     pg: "npm:^8.23.1"
@@ -738,13 +737,6 @@ __metadata:
   version: 2.0.0
   resolution: "depd@npm:2.0.0"
   checksum: 10c0/58bd06ec20e19529b06f7ad07ddab60e504d9e0faca4bd23079fac2d279c3594334d736508dc350e06e510aba5e22e4594483b3a6562ce7c17dd797f4cc4ad2c
-  languageName: node
-  linkType: hard
-
-"dotenv@npm:^17.4.2":
-  version: 17.4.2
-  resolution: "dotenv@npm:17.4.2"
-  checksum: 10c0/164f8e77a646c8446867d5b588d26ea6005c8ea7c5eb41cf926f6113d23f2191355f6e0cfd95ea9bab98394a5b0a3f1e51a8399711b666fe55cc7b0bd745f942
   languageName: node
   linkType: hard
 

@@ -5,8 +5,8 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "start": "node index.ts",
-    "dev": "node --watch index.ts",
+    "start": "node --env-file=.env index.ts",
+    "dev": "node --env-file=.env --watch index.ts",
     "db:new": "dbmate new",
     "db:migrate": "dbmate up",
     "db:reset": "dbmate drop && dbmate up && yarn db:seed",
@@ -15,7 +15,6 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
     "pg": "^8.23.1",
